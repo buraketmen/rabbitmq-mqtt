@@ -1,4 +1,4 @@
-FROM rabbitmq:3.8.18-management
+FROM rabbitmq:3.9.7-management
 
 USER root
 
