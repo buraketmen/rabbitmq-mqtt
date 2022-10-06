@@ -18,12 +18,12 @@ services:
             RABBITMQ_ERLANG_COOKIE: "your secret key"
             RABBITMQ_CONFIG_FILE: "/etc/rabbitmq/rabbitmq.conf"
         ports:
-			- "1883:1883"
-			- "5672:5672"
+            - "1883:1883"
+            - "5672:5672"
             - "15672:15672"
             - "15675:15675"
-			- "61613:61613"
-			- "61615:61615"
+            - "61613:61613"
+            - "61615:61615"
 
         volumes:
             - "rabbitmq-storage:/var/lib/rabbitmq"
