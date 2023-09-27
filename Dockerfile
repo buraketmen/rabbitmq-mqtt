@@ -1,4 +1,4 @@
-FROM rabbitmq:3.11-management
+FROM rabbitmq:3.12-management
 USER root
 ARG DEBIAN_FRONTEND=noninteractive
 COPY init.sh /tmp/
